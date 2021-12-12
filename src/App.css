@@ -34,3 +34,13 @@ h1 {
   font-size: 12px;
   margin: 50px 0;
 }
+
+a {
+  text-decoration: none;
+  color: #454ade;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #6367e3;
+}
