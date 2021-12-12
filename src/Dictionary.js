@@ -27,7 +27,7 @@ return (
         <div className="Dictionary">
             <form onSubmit={search}>
             <input type="search"
-                onChange={handleKeywordChange} />
+                onChange={handleKeywordChange} placeholder="Type any word..." />
         </form>
         <Results results={results} />
         </div>
