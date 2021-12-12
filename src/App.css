@@ -1,11 +1,28 @@
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 80px 0 30px 0;
+h1 {
+  font-size: 72px;
 }
 
-h1 {
+.Container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App-header,
+.App-footer {
+  color: #272d2d;
   font-family: "Prata", serif;
-  font-size: 72px;
   text-align: center;
+}
+
+.App-header {
+  margin: 80px 0 30px 0;
+}
+
+.App-main {
+  margin: 50px 0;
+}
+
+.App-footer {
+  font-size: 12px;
+  margin: 150px 0;
 }
